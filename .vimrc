@@ -7,8 +7,8 @@ call plug#end()
 "bindings
 nnoremap <c-B> :NERDTreeToggle<cR>
 "copy to the system buffer
-nnoremap <c-y> "+*y
-vnoremap <c-y> "+*y
+nnoremap <c-y> "+y
+vnoremap <c-y> "+y
 
 set encoding=utf-8 "set encoding
 
